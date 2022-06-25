@@ -6,7 +6,13 @@
             <div class='col-12'>
                 <div class='card'>
                     <div class='card-header'>
-                        <h1>Alunos DevStart</h1>
+                        <div class='d-flex justify-content-between'>
+                            <h1>Alunos DevStart</h1>
+                            <form action="{{route('logout')}}" method='post'>
+                                @csrf
+                                <button type='submit' class='btn btn-dark btn-sm' style='background-color:#1f2937;'><i class="fa-solid fa-arrow-right-from-bracket"></i> Sair</button>
+                            </form>
+                        </div>             
                         <p>Laravel 9 - CRUD (Create, Read, Update e Delete)</p>
                     </div>
                     <div class='card-body'>

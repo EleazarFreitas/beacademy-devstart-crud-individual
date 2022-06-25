@@ -3,7 +3,7 @@
 
     <div class='card' style='margin:20px;'>
         <div class='card-header'>
-            Editar Aluno(a)
+            <h1>Editar Aluno(a)</h1>
         </div>
         <div class='card-body'>
             <form action="{{url('student/'.$students->id)}}" method='post'>

@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="https://devstart.beacademy.com.br/paylivre/assets/favicon.ico">
     <title>Alunos DevStart - Laravel 9 - CRUD</title>
 </head>
-<body>
+<body style='background-color:#f7fafc;'>
 
     <div class='container'>
         @yield('content')

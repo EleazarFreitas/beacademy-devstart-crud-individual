@@ -3,7 +3,7 @@
 
     <div class='card' style='margin:20px;'>
         <div class='card-header'>
-            Dados do(a) Aluno(a)
+            <h1>Dados do(a) Aluno(a)</h1>
         </div>
         <div class='card-body'>
             <div class='card-body'>
@@ -13,3 +13,5 @@
             </div>
         </div>
     </div>
+
+@stop

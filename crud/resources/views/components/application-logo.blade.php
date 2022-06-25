@@ -1,0 +1,1 @@
+<img style='width:150px;' src="https://i.imgur.com/ACgeuIp_d.webp?maxwidth=760&fidelity=grand">

@@ -3,7 +3,7 @@
 
     <div class='card' style='margin:20px;'>
         <div class='card-header'>
-            + Adicionar Novo(a) Aluno(a)
+            <h1>+ Adicionar Novo(a) Aluno(a)</h1>
         </div>
         <div class='card-body'>
             <form action="{{url('student')}}" method='post'>
