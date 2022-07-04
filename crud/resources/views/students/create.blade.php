@@ -9,13 +9,13 @@
             <form action="{{url('student')}}" method='post'>
                 {!! csrf_field() !!}
                 <label for="">Nome</label>
-                <input type="text" name='name' id='name' class='form-control'>
+                <input type="text" name='name' id='name' class='form-control' required>
                 <br>
                 <label for="">Endereço</label>
-                <input type="text" name='adress' id='adress' class='form-control'>
+                <input type="text" name='adress' id='adress' class='form-control' required>
                 <br>
                 <label for="">Telefone</label>
-                <input type="text" name='mobile' id='mobile' class='form-control'>
+                <input type="text" name='mobile' id='mobile' class='form-control' required>
                 <br>
                 <input type="submit" value='Salvar' class='btn btn-success'>
                 <br>

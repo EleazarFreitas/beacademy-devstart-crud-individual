@@ -11,13 +11,13 @@
                     @method('PATCH')
                     <input type="hidden" name='id' id='id' value='{{$students->id}}'>
                     <label for="">Nome</label>
-                    <input type="text" name='name' id='name' value='{{$students->name}}' class='form-control'>
+                    <input type="text" name='name' id='name' value='{{$students->name}}' class='form-control' required>
                     <br>
                     <label for="">Endereço</label>
-                    <input type="text" name='adress' id='adress' value='{{$students->adress}}' class='form-control'>
+                    <input type="text" name='adress' id='adress' value='{{$students->adress}}' class='form-control' required>
                     <br>
                     <label for="">Telefone</label>
-                    <input type="text" name='mobile' id='mobile' value='{{$students->mobile}}' class='form-control'>
+                    <input type="text" name='mobile' id='mobile' value='{{$students->mobile}}' class='form-control' required>
                     <br>
                     <input type="submit" value="Atualizar" class='btn btn-success'>
                     <br>
