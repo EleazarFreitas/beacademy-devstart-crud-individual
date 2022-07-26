@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('name');
             $table->string('adress');
             $table->string('mobile');
+            $table->string('course');
+            $table->string('status');
             $table->timestamps();
         });
     }

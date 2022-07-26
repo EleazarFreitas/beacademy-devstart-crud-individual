@@ -27,8 +27,8 @@
                                     <tr>
                                         <th>#</th>
                                         <th>Nome Completo</th>
-                                        <th>Endereço</th>
-                                        <th>Telefone</th>
+                                        <th>Curso</th>
+                                        <th>Status</th>
                                         <th>Ações</th>
                                     </tr>
                                 </thead>
@@ -37,8 +37,8 @@
                                     <tr>
                                         <td>{{$loop->iteration}}</td>
                                         <td>{{$item->name}}</td>
-                                        <td>{{$item->adress}}</td>
-                                        <td>{{$item->mobile}}</td>
+                                        <td>{{$item->course}}</td>
+                                        <td>{{$item->status}}</td>
                                         <td>
                                             <a href="{{url('/student/'.$item->id)}}" title='View Student'><button class='btn btn-info btn-sm'><i class="fa-solid fa-eye" aria-hidden='true'></i> Ver</button></a>
                                             <a href="{{url('/student/'.$item->id . '/edit')}}" title='Edit Student'><button class='btn btn-primary btn-sm'><i class="fa-solid fa-pen-to-square" aria-hidden='true'></i> Editar</button></a>

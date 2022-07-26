@@ -19,6 +19,23 @@
                     <label for="">Telefone</label>
                     <input type="text" name='mobile' id='mobile' value='{{$students->mobile}}' class='form-control' required>
                     <br>
+                    <label for="course">Curso:</label>
+                    <select id="course" name="course">
+                        <option value="PHP">PHP</option>
+                        <option value="Laravel">Laravel</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Banco de dados">Banco de dados</option>
+                    </select>
+                    <br>
+                    <div class='py-3'>
+                        <span>Status:</span>
+                        <br>
+                          <input type="radio" id="status" name="status" value="Cursando">
+                          <label for="status">Cursando</label><br>
+                          <input type="radio" id="status" name="status" value="Finalizado">
+                          <label for="status">Finalizado</label>
+                    </div>
+                    <br>
                     <input type="submit" value="Atualizar" class='btn btn-success'>
                     <br>
                 </form>
