@@ -38,7 +38,13 @@
                                         <td>{{$loop->iteration}}</td>
                                         <td id='identifier'>{{$item->name}}</td>
                                         <td>{{$item->course}}</td>
-                                        <td>{{$item->status}}</td>
+                                        <td
+                                        @if ($item->status === 'Cursando'){
+                                            return class='text-warning fw-bold';
+                                        };
+                                        @endif
+                                        return class='text-success fw-bold';
+                                        >{{$item->status}}</td>
                                         <td>
                                             <a href="{{url('/student/'.$item->id)}}" title='View Student'><button class='btn btn-info btn-sm'><i class="fa-solid fa-eye" aria-hidden='true'></i> Ver</button></a>
                                             <a href="{{url('/student/'.$item->id . '/edit')}}" title='Edit Student'><button class='btn btn-primary btn-sm'><i class="fa-solid fa-pen-to-square" aria-hidden='true'></i> Editar</button></a>
