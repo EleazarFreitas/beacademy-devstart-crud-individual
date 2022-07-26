@@ -17,9 +17,12 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('adress');
+            $table->string('email');
             $table->string('mobile');
             $table->string('course');
             $table->string('status');
+            $table->string('cpf');
+            $table->string('pic');
             $table->timestamps();
         });
     }

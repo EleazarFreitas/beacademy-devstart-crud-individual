@@ -14,8 +14,17 @@
                 <label for="">Endereço</label>
                 <input type="text" name='adress' id='adress' class='form-control' required>
                 <br>
+                <label for="">E-mail</label>
+                <input type="email" name='email' id='email' class='form-control' placeholder="@" required>
+                <br>
                 <label for="">Telefone</label>
                 <input type="text" name='mobile' id='mobile' class='form-control' required>
+                <br>
+                <label for="">CPF</label>
+                <input type="text" name='cpf' id='cpf' class='form-control' required>
+                <br>
+                <label for="">Foto</label>
+                <input type="text" name='pic' id='pic' class='form-control' placeholder="URL" required>
                 <br>
                 <label for="course">Curso:</label>
                     <select id="course" name="course">
