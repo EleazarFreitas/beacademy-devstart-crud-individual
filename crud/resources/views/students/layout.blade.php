@@ -15,5 +15,6 @@
         @yield('content')
     </div>
     
+    <script src="{{asset('assets/js/confirmDelete.js')}}"></script>
 </body>
 </html>

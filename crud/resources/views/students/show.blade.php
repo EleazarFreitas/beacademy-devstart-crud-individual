@@ -4,6 +4,7 @@
     <div class='card' style='margin:20px;'>
         <div class='card-header'>
             <h1>Dados do(a) Aluno(a)</h1>
+            <a href="/student" class='btn btn-dark btn-sm d-inline-block'><i class="fa-solid fa-arrow-left"></i> Voltar</a>
         </div>
         <div class='card-body'>
             <div class='card-body'>
