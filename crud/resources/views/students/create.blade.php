@@ -38,6 +38,7 @@
                 <div class='py-3'>
                     <span>Status:</span>
                     <br>
+                    <br>
                       <input type="radio" id="status" name="status" value="Cursando">
                       <label for="status">Cursando</label>
                     <br>

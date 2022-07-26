@@ -3,6 +3,14 @@
 
     <div class='container'>
         <div class='row' style='margin:20px;'>
+            @if (session('flash_message'))
+
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>{{session('flash_message')}}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+                
+            @endif
             <div class='col-12'>
                 <div class='card'>
                     <div class='card-header'>
@@ -64,5 +72,13 @@
             </div>
         </div>
     </div>
+
+    <footer class='position-absolute bottom-0 start-50 translate-middle-x pb-3'>
+        <span>@EleazarSF</span>
+        <div class='text-center'>
+            <a href="https://github.com/EleazarFreitas" class='text-dark h5'><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/eleazarsf/" class='text-dark h5'><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
 
 @endsection
