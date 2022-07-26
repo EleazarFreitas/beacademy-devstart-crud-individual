@@ -1,12 +1,15 @@
-let form = document.getElementById("form");
-let identifier = document.getElementById("identifier").textContent;
+function confirmDelete (){
 
-form.addEventListener('submit', function(event){
+  let form = document.getElementById("form");
+  let identifier = document.getElementById("identifier").textContent;
+
+  form.addEventListener('submit', function(event){
   
-  let check = confirm (identifier + ' será excluído!');
+    let check = confirm ('O(A) aluno(a) ' + identifier + ' será excluído(a)!');
 
-  if (check !== true){
-    event.preventDefault();
-  };
+    if (check !== true){
+      event.preventDefault();
+    };
 
-});
+  });
+}

@@ -45,7 +45,7 @@
                                             <form id="form" method='POST' action="{{ url('/student'.'/'.$item->id) }}" style='display:inline;'>
                                                 @method('DELETE')
                                                 @csrf
-                                                <button type='submit' class='btn btn-danger btn-sm'><i class="fa-solid fa-trash-can" aria-hidden='true'></i> Deletar</button>
+                                                <button onclick="confirmDelete()" type='submit' class='btn btn-danger btn-sm'><i class="fa-solid fa-trash-can" aria-hidden='true'></i> Deletar</button>
                                             </form>
                                         </td>
                                     </tr>
