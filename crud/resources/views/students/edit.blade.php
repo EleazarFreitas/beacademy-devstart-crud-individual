@@ -1,7 +1,7 @@
 @extends('students.layout')
 @section('content')
 
-    <div class='card' style='margin:20px;'>
+    <div class='card w-75 mx-auto' style='margin:20px;'>
         <div class='card-header'>
             <h1>Editar Aluno(a)</h1>
             <a href="/student" class='btn btn-dark btn-sm d-inline-block'><i class="fa-solid fa-arrow-left"></i> Voltar</a>

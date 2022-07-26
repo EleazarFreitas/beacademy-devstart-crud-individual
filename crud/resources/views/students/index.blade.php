@@ -29,7 +29,7 @@
                                         <th>Nome Completo</th>
                                         <th>Curso</th>
                                         <th>Status</th>
-                                        <th>Ações</th>
+                                        <th class='w-25'>Ações</th>
                                     </tr>
                                 </thead>
                                 <tbody>
