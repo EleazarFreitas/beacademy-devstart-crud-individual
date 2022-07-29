@@ -41,7 +41,7 @@
                         <span>Status:</span>
                         <br>
                         <br>
-                          <input type="radio" id="status" name="status" value="Cursando">
+                          <input type="radio" id="status" name="status" value="Cursando" checked>
                           <label for="status">Cursando</label>
                         <br>
                           <input type="radio" id="status" name="status" value="Finalizado">

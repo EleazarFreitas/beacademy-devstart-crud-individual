@@ -28,7 +28,7 @@
                 <input minlength="11" maxlength="255" type="text" name='pic' id='pic' class='form-control' placeholder="URL" value="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" required>
                 <br>
                 <label for="course">Curso:</label>
-                    <select id="course" name="course">
+                    <select id="course" name="course" required>
                         <option value="PHP">PHP</option>
                         <option value="Laravel">Laravel</option>
                         <option value="JavaScript">JavaScript</option>
@@ -39,7 +39,7 @@
                     <span>Status:</span>
                     <br>
                     <br>
-                      <input type="radio" id="status" name="status" value="Cursando">
+                      <input type="radio" id="status" name="status" value="Cursando" checked>
                       <label for="status">Cursando</label>
                     <br>
                       <input type="radio" id="status" name="status" value="Finalizado">
