@@ -20,8 +20,8 @@
                     <label for="">E-mail</label>
                     <input minlength="3" maxlength="255" type="email" name='email' id='email' value='{{$students->email}}' class='form-control' placeholder="exemplo@email.com" required>
                     <br>
-                    <label for="">Telefone</label>
-                    <input minlength="11" maxlength="14" type="text" name='mobile' id='mobile' value='{{$students->mobile}}' class='form-control' required>
+                    <label for="">Celular</label>
+                    <input type="text" maxlength="13" pattern="[0-9]{2}-[0-9]{4,5}-[0-9]{4}" name='mobile' id='mobile' value='{{$students->mobile}}' class='form-control' placeholder="00-00000-0000" required>
                     <br>
                     <label for="">Endereço</label>
                     <input minlength="6" maxlength="255" type="text" name='adress' id='adress' value='{{$students->adress}}' class='form-control' required>
