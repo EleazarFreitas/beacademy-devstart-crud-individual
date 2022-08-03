@@ -22,7 +22,7 @@
                 <input minlength="3" maxlength="255" type="text" name='adress' value="{{old('adress')}}" id='adress' class='form-control' required>
                 <br>
                 <label for="">CPF</label>
-                <input type="text" maxlength="14" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-1]{2}" name='cpf' value="{{old('cpf')}}" id='cpf' class='form-control' placeholder="000.000.000-00" required>
+                <input type="text" maxlength="14" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" name='cpf' value="{{old('cpf')}}" id='cpf' class='form-control' placeholder="000.000.000-00" required>
                 <br>
                 <label for="">Foto</label>
                 <input minlength="11" maxlength="255" type="text" name='pic' id='pic' class='form-control' placeholder="URL" value="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" required>
