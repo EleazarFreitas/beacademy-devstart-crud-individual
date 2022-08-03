@@ -15,14 +15,14 @@
                 <label for="">E-mail</label>
                 <input minlength="6" maxlength="255" type="email" name='email' value="{{old('email')}}" id='email' class='form-control' placeholder="exemplo@email.com" required>
                 <br>
-                <label for="">Telefone</label>
-                <input minlength="11" maxlength="14" type="tel" name='mobile' value="{{old('mobile')}}" id='mobile' class='form-control' placeholder="(00) 00000 - 0000" required>
+                <label for="">Celular</label>
+                <input type="text" maxlength="13" pattern="[0-9]{2}-[0-9]{4,5}-[0-9]{4}" name='mobile' value="{{old('mobile')}}" id='mobile' class='form-control' placeholder="00-00000-0000" required>
                 <br>
                 <label for="">Endereço</label>
                 <input minlength="3" maxlength="255" type="text" name='adress' value="{{old('adress')}}" id='adress' class='form-control' required>
                 <br>
                 <label for="">CPF</label>
-                <input minlength="11" maxlength="11" type="text" name='cpf' value="{{old('cpf')}}" id='cpf' class='form-control' placeholder="000.000.000-00" required>
+                <input type="text" maxlength="14" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-1]{2}" name='cpf' value="{{old('cpf')}}" id='cpf' class='form-control' placeholder="000.000.000-00" required>
                 <br>
                 <label for="">Foto</label>
                 <input minlength="11" maxlength="255" type="text" name='pic' id='pic' class='form-control' placeholder="URL" value="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" required>
