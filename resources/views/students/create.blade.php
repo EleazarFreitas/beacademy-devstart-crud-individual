@@ -9,6 +9,7 @@
         <div class='card-body'>
             <form action="{{url('student')}}" method='post'>
                 {!! csrf_field() !!}
+                <input type="hidden" name="user_id" value="{{$user_id}}">
                 <label for="">Nome completo</label>
                 <input minlength="3" maxlength="255" type="text" name='name' value="{{old('name')}}" id='name' class='form-control' required>
                 <br>
