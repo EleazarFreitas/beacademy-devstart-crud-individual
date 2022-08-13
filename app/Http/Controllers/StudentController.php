@@ -9,13 +9,14 @@ class StudentController extends Controller
 {
        public function index()
     {
-        $students = Student::all();
+        $students = auth()->user()->students()->orderBy('created_at', 'desc')->paginate();
         return view('students.index')->with('students',$students);
     }
 
       public function create()
     {
-        return view('students.create');
+        $user_id = auth()->user()->id;
+        return view('students.create', compact('user_id'));
     }
 
       public function store(Request $request)
